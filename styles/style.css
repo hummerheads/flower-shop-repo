@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
+.banner .button{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+.banner .button > a{
+    text-decoration: none;
+    padding: 20px 43px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}
+.header-text{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner .elements{
+    padding: 240px;
+}
+.banner .picture{
+    width: 635px;
+    height: 800px;
+}
+
