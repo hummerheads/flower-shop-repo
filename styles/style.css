@@ -94,28 +94,44 @@ body{
 .signup .elements .offer{
     color: #E55473;
 }
-/* Footer related styles */
-.foot{
-    background-color: #111010;
+
+/* last section */
+.bck{
+    background-color: #FFFFFF;
+    margin: 200px;
+    align-items: center;
+}
+.bck .imgs{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    column-gap: 50px;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 100px;
+    background-size: 150%;  
+}
+.bck .imgs .img1{
+    background-color: #A7216226;
+    background-size: 150%;
+}
+.bck .imgs .img2{
+    background-color: #0597A026;
+}
+.bck .imgs .img3{
+    background-color: #477D1126;
+}
+.bck h3{
     text-align: center;
-    padding: 100px 670px;
+    font-size: 40px;
+    font-weight: 800;
 }
-.foothead{
-    color: #FFFFFF;
-    font-size: 48px;
-    font-weight: 800;  
-}
-.foot .offer{
-    color: #E55473;
-}
-.foot > p{
-    color: #FFFFFF;
-}
-.foot > small{
-    color: rgba(255, 255, 255, 0.40);
-    font-size: 16px;
+.bck p{
+    text-align: center;
+    font-size: 18px;
     font-weight: 400;
-}
+    line-height: 30px;
+    }
 /* instagram related styles */
 .instagram{
     background-color: #FFFFFF;
@@ -143,10 +159,12 @@ body{
 }
 /* Coupon related styles */
 .coupon{
+    margin-top: 100px;
     margin-left: 20px;
     height: auto;
     position: relative;
     width: 1530px;
+    margin-bottom: 100px;
 }
 .coupon img{
     width: 100%;
@@ -170,10 +188,10 @@ body{
     font-weight: 800;
 }
 .txt .para{
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .coupon .button{
     border-radius: 8px;
@@ -186,4 +204,27 @@ line-height: 30px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Footer related styles */
+.foot{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 670px;
+}
+.foothead{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;  
+}
+.foot .offer{
+    color: #E55473;
+}
+.foot > p{
+    color: #FFFFFF;
+}
+.foot > small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
