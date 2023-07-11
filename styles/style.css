@@ -46,7 +46,6 @@ body{
     width: 635px;
     height: 800px;
 }
-
 /* Signup page styles */
 .signup{
     background: rgba(229, 84, 115, 0.05);
@@ -94,5 +93,29 @@ body{
 }
 .signup .elements .offer{
     color: #E55473;
+}
+/* Footer related styles */
+.foot{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 670px;
+}
+.foothead{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+.foot .offer{
+    color: #E55473;
+}
+.foot > p{
+    color: #FFFFFF;
+}
+.foot > small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+
 }
 
