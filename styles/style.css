@@ -141,13 +141,49 @@ body{
     column-gap: 30px;
     margin: 20px;
 }
-.instagram .newsletter img{
-    width: 1530px;
-    height: 449px;
-    padding-left: 20px;
-}
-.instagram .newsletter{
+/* Coupon related styles */
+.coupon{
+    margin-left: 20px;
+    height: auto;
     position: relative;
-    background-image: url("Rectangle 9.png");
+    width: 1530px;
 }
+.coupon img{
+    width: 100%;
+    display: block;
+}
+.txt{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    font-size: 20px;
+    display: inline-block;
+}
+.inp{
+    width: 500px;
+    height: 40px;
 
+}
+.txt .head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.txt .para{
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.coupon .button{
+    border-radius: 8px;
+    background-color: #E55473;
+    border: 0;
+}
+.coupon a{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
