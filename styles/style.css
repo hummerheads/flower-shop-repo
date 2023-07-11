@@ -12,7 +12,7 @@ body{
 }
 .banner .button > a{
     text-decoration: none;
-    padding: 20px 43px;
+    padding: 20px 30px;
     color: #FFFFFF;
     font-size: 20px;
     font-family: Lato;
@@ -22,11 +22,27 @@ body{
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    gap: 32px;
+}
+.banner .header-paragraph{
+    color: #27272799;
+    display: flex;
+    padding-right: 200px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 32px;
 }
 .banner .elements{
-    padding: 240px;
+    padding-top: 100px;
+    padding-left: 240px;
+    
 }
 .banner .picture{
+    padding-top: 50px;
+    padding-right: 240px;
     width: 635px;
     height: 800px;
 }
