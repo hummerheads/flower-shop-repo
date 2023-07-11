@@ -103,8 +103,7 @@ body{
 .foothead{
     color: #FFFFFF;
     font-size: 48px;
-    font-weight: 800;
-    
+    font-weight: 800;  
 }
 .foot .offer{
     color: #E55473;
@@ -116,6 +115,39 @@ body{
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
-
+}
+/* instagram related styles */
+.instagram{
+    background-color: #FFFFFF;
+    padding-left: 150px;
+}
+.instagram > h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.instagram > p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 650px;
+}
+.instagram .pictures .img{
+    width: 350px;
+    height: 400px;
+    column-gap: 30px;
+    margin: 20px;
+}
+.instagram .newsletter img{
+    width: 1530px;
+    height: 449px;
+    padding-left: 20px;
+}
+.instagram .newsletter{
+    position: relative;
+    background-image: url("Rectangle 9.png");
 }
 
